@@ -1,0 +1,120 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 25px;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+align-content div {
+  transition: font-size 2s linear 1s;
+}
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+.child {
+  flex-grow: 3;
+}
+.section-header {
+  font-family: monospace, cursive;
+  font-size: 30px;
+}
+/* header section */
+#header {
+  background-color: pink;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.blue-background {
+  background-color: #95bbd8;
+  color: black;
+  margin: 0 auto;
+  width: 600px;
+}
+div {
+  background-color: #95bbd8;
+  transition: color 2s ease-in 500ms;
+}
+div::selection {
+  color: orange;
+}
+div:hover {
+  background-color: rgb(230, 159, 200);
+}
+.header-paragraph {
+  font-size: 30px;
+  font-weight: 111;
+}
+img {
+  width: auto;
+}
+.box:hover {
+  color: green;
+}
+/* navigation section */
+#nav {
+  background-color: pink;
+}
+
+#nav li {
+  font-weight: 100;
+}
+
+/* about section */
+#about {
+  background-color: olive;
+  color: black;
+}
+/* skills section */
+#skills {
+  background-color: rgb(228, 122, 184);
+}
+
+p::first-letter {
+  font-size: 30px;
+  color: rgb(5, 5, 5);
+}
+img {
+  width: 25%;
+  height: auto;
+}
+/* work history section */
+#work-history {
+  background-color: pink;
+}
+
+#work-history h4 {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+/* projects section */
+#projects {
+  background-color: olive;
+  color: black;
+}
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+meter::-webkit-meter-optimum-value {
+  background: orange;
+}
+article {
+  background: blue;
+}
+/* footer section */
+#footer {
+  background-color: coral;
+}
+div {
+  background: radial-gradient(rgb(255, 204, 221), rgb(255, 225, 77), olive);
+}
+
+#footer h4 {
+  font-size: 35px;
+}
