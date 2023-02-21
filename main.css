@@ -20,6 +20,7 @@ align-content div {
   font-family: monospace, cursive;
   font-size: 30px;
 }
+<link rel="stylesheet" href="https://kit.fontawesome.com/062ee9f5b1.css" crossorigin="anonymous">
 /* header section */
 #header {
   background-color: pink;
@@ -56,6 +57,12 @@ img {
 .box:hover {
   color: green;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* navigation section */
 #nav {
   background-color: pink;
@@ -67,12 +74,12 @@ img {
 
 /* about section */
 #about {
-  background-color: olive;
+  background-color: pink;
   color: black;
 }
 /* skills section */
 #skills {
-  background-color: rgb(228, 122, 184);
+  background-color: pink;
 }
 
 p::first-letter {
@@ -95,7 +102,7 @@ img {
 
 /* projects section */
 #projects {
-  background-color: olive;
+  background-color: pink;
   color: black;
 }
 meter::-webkit-meter-bar {
@@ -109,12 +116,11 @@ article {
 }
 /* footer section */
 #footer {
-  background-color: coral;
+    background-color: pink;
 }
 div {
   background: radial-gradient(rgb(255, 204, 221), rgb(255, 225, 77), olive);
 }
-
 #footer h4 {
-  font-size: 35px;
+    font-size: 35px;
 }
